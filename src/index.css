@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h2,
+h3,
+p,
+div, textarea {
+  margin-bottom: 0.5rem;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+.bg-neutral-secondary {
+  background-color: #f4f4f4;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+ 
+.rounded-8px{
+  border-radius: 8px;
+}
+
+.aria-disabled\:text-primary[aria-disabled="true"] {
+    color: #111111;
+}
+
+.border-input-disabled {
+    border-color: #dbdbdb;
+}
+
+.bg-neutral-disabled {
+    background-color: #f0f0f0;
+}
